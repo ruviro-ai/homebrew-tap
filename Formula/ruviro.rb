@@ -1,16 +1,16 @@
 class Ruviro < Formula
   desc "Native CLI for running AI coding harnesses through Ruviro"
   homepage "https://ruviro.ai/"
-  version "0.1.0"
+  version "0.2.0"
 
   on_macos do
     on_arm do
-      url "https://github.com/ruviro-ai/ruviro-cli/releases/download/v0.1.0/ruviro_0.1.0_darwin_arm64.tar.gz"
-      sha256 "77558c7a5d38845be7848bd962121cf690ee23d4ac4ee31e4b3a1afeb9c61169"
+      url "https://github.com/ruviro-ai/ruviro-cli/releases/download/v0.2.0/ruviro_0.2.0_darwin_arm64.tar.gz"
+      sha256 "3a6463829aafb267d851a740a5523eb73dad3f6bac9d1f4ee7497b084cc487f7"
     end
     on_intel do
-      url "https://github.com/ruviro-ai/ruviro-cli/releases/download/v0.1.0/ruviro_0.1.0_darwin_amd64.tar.gz"
-      sha256 "5861278b5a04b51809ee8f136fa778f417514809d094c19d6b9fc5bc95f2ef6d"
+      url "https://github.com/ruviro-ai/ruviro-cli/releases/download/v0.2.0/ruviro_0.2.0_darwin_amd64.tar.gz"
+      sha256 "5a7396fd99fe877625fec532ffcd75a4dd0e6f8776cb4b5cb271108f3297caa1"
     end
   end
 
@@ -18,12 +18,12 @@ class Ruviro < Formula
     depends_on "libsecret"
 
     on_arm do
-      url "https://github.com/ruviro-ai/ruviro-cli/releases/download/v0.1.0/ruviro_0.1.0_linux_arm64.tar.gz"
-      sha256 "eb8c804424588f51466fcf0e76c04e264b7ad706dfb90913323cfc11b021fafb"
+      url "https://github.com/ruviro-ai/ruviro-cli/releases/download/v0.2.0/ruviro_0.2.0_linux_arm64.tar.gz"
+      sha256 "a9a34b90a5123b72d9312ab93754f24d02743ac0a43fa81b488079a7afbfc3a2"
     end
     on_intel do
-      url "https://github.com/ruviro-ai/ruviro-cli/releases/download/v0.1.0/ruviro_0.1.0_linux_amd64.tar.gz"
-      sha256 "c31bf2532e9cf33a234f1856d71aff1a31e9820313c6f283ff7b49e1ff2a8aa5"
+      url "https://github.com/ruviro-ai/ruviro-cli/releases/download/v0.2.0/ruviro_0.2.0_linux_amd64.tar.gz"
+      sha256 "97a7e0a7898975caa252402eb44493706dea9cb4ef3688b7e1306985152cc968"
     end
   end
 
